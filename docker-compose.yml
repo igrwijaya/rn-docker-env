@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  agrito-env:
+    image: agrito-server
+    volumes:
+      - "./config:/root"
+      - "./project:/root/project"
+      - "E:/SDK/android-linux:/root/android-sdk"
+    stdin_open: true
+    tty: true

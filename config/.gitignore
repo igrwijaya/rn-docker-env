@@ -1,0 +1,7 @@
+.android/
+.config/
+.gradle/
+.npm/
+.bash_history
+project/
+android-sdk/
